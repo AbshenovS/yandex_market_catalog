@@ -1,0 +1,4 @@
+services:
+  pythonparser:
+    build: ./
+    command: python3 ./yml_stat.py ${yml_url}
